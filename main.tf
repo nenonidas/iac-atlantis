@@ -4,6 +4,6 @@ terraform {
 
 resource "null_resource" "teste" {
   provisioner "local-exec" {
-    command = "echo Teste de Atlantis testes"
+    command = "echo Teste de Atlantis teste testes"
   }
 }
